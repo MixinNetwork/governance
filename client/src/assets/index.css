@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  input {
+    @apply border-[1px] border-black/[.66] hover:border-primary focus:border-primary outline-none focus:outline-none rounded resize-none;
+  }
+}

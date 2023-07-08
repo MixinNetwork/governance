@@ -1,0 +1,53 @@
+[test]
+environment = "test"
+
+[test.database]
+path = "/tmp/governance_test.sqlite3"
+
+[test.mixin]
+mixin-id = 7000104710
+client-id = "a9f616bc-635a-4047-a32c-526340d3c241"
+session-id = "3a6eabab-0be3-4995-87e0-1cc7aa836b6d"
+private-key = "mylVErZsTdKIBtVcarjO9JthuGtBn--bij4BBVSrPAQEajgT5l_dGsGpQVR1rGSBb7LV0WLpktgNJn-pw"
+pin-token = "oCjIWLXzHpYXSGybOlXia6SVmJsdcBAYrR86znaZ5g4"
+pin = "123789"
+
+[test.governance]
+fee-asset-id = "965e5c6e-434c-3fa9-b780-c50f43cd955c"
+fee = "100"
+
+[development]
+environment = "development"
+
+[development.database]
+path = "/tmp/governance/db.sqlite3"
+
+[development.mixin]
+mixin-id = 7000104710
+client-id = "a9f616bc-635a-4047-a32c-526340d3c241"
+session-id = "3a6eabab-0be3-4995-87e0-1cc7aa836b6d"
+private-key = "mylVErZsTdKIBtVcarjO9JthuGtBn--bij4BBVSrPAQEajgT5l_dGsGpQVR1rGSBb7LV0WLpktgNJn-pw"
+pin-token = "oCjIWLXzHpYXSGybOlXia6SVmJsdcBAYrR86znaZ5g4"
+pin = "123789"
+
+[development.governance]
+fee = "0.001"
+
+[staging]
+fee-asset-id = "965e5c6e-434c-3fa9-b780-c50f43cd955c"
+environment = "staging"
+
+[staging.database]
+path = "/tmp/governance/db.sqlite3"
+
+[staging.mixin]
+mixin-id = 7000104710
+client-id = "a9f616bc-635a-4047-a32c-526340d3c241"
+session-id = "3a6eabab-0be3-4995-87e0-1cc7aa836b6d"
+private-key = "mylVErZsTdKIBtVcarjO9JthuGtBn--bij4BBVSrPAQEajgT5l_dGsGpQVR1rGSBb7LV0WLpktgNJn-pw"
+pin-token = "oCjIWLXzHpYXSGybOlXia6SVmJsdcBAYrR86znaZ5g4"
+pin = "123789"
+
+[staging.governance]
+fee-asset-id = "965e5c6e-434c-3fa9-b780-c50f43cd955c"
+fee = "100"
