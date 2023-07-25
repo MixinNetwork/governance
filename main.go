@@ -58,7 +58,7 @@ func main() {
 					&cli.StringFlag{
 						Name:    "public",
 						Aliases: []string{"p"},
-						Usage:   "The public key of the app, can be found from https://governance-api.mixin.zone/nodes",
+						Usage:   "The public key of the app, can be found from https://governance.mixin.one, for staging is https://governance.mixin.zone",
 					},
 					&cli.StringFlag{
 						Name:    "user",
