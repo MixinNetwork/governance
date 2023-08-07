@@ -46,5 +46,5 @@ func RenderTemplate(w http.ResponseWriter, r *http.Request, list []string) {
 	str := strings.Join(list, `",
   "`)
 	l := len(list)
-	session.Render(r.Context()).Text(w, http.StatusOK, fmt.Sprintf(exampletoml, l*2/3, str, l*2/3+1, str, l*2/3+1))
+	session.Render(r.Context()).Text(w, http.StatusOK, fmt.Sprintf(exampletoml, l*2/3, str, l*2/3+1, str, (l+1)*2/3+1))
 }
