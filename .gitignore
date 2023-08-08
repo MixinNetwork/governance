@@ -16,13 +16,13 @@
 
 governance
 config/apps.json
+config/config.toml
 views/example.toml
 
 node_modules
 dist
 .DS_Store
 .vite
-config.toml
 
 .env
 .env.development
